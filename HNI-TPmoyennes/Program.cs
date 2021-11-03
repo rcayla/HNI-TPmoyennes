@@ -39,6 +39,7 @@ namespace TPMoyennes
                     }
                 }
             }
+            //toto
 
             Eleve eleve = sixiemeA.eleves[6];
             // Afficher la moyenne d'un élève dans une matière
