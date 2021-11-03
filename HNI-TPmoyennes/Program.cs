@@ -66,7 +66,6 @@ class Note
         note = n;
     }
 }
-
 // Classes développées pour le TP
 class Classe
 {
@@ -164,9 +163,9 @@ class Eleve
     }
     public void ajouterNote(Note note)
     {
-      //  if (notes.Count() < notes.Length)
+        if (notes.Count() < notes.Length)
         {
-           notes[notes.Count()+1] = note;
+            notes[notes.Count() + 1] = note;
         }
     }
     public double Moyenne(int arg2)
@@ -210,4 +209,5 @@ class Eleve
         return moyg / NbMat;
     }
 }
+
 
